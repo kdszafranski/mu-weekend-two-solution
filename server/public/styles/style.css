@@ -1,0 +1,23 @@
+#tracker {
+  list-style-type: none;
+}
+
+#tracker li {
+  height: 35px;
+  width: 35px;
+  margin: 2px;
+  line-height: 30px;
+  border: 4px solid peachpuff;
+  color: pink;
+  float: left;
+  text-align: center;
+  background-color: gray;
+}
+
+#tracker li:hover {
+  background-color: white;
+}
+
+#tracker li.current {
+  background-color: white;
+}
